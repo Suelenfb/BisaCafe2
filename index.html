@@ -24,7 +24,7 @@
 <header class="topo">
   <div class="container topo-linha">
     <a href="#inicio" class="logo">
-      <img src="./logo.png" alt="Bisa Café" class="logo-icone" width="100" height="100">
+      <img src="./logo.png" alt="Bisa Café" class="logo-icone" width="56" height="56" fetchpriority="high">">
     </a>
     <nav class="menu-topo" aria-label="Seções do site">
       <a href="#essencia-da-marca">Sobre a marca</a>
@@ -33,7 +33,7 @@
       <a href="#horarios">Horários</a>
       <a href="#local">Como chegar</a>
     </nav>
-    <a class="botao botao-primario topo-whatsapp" href="https://wa.me/5511910000055">
+    <a class="botao botao-primario topo-whatsapp" href="https://wa.me/5511910000055" target="_blank" rel="noopener noreferrer">
       <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
         <path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.6-6.1c-.3-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1-.2.3-.6.8-.8 1-.1.2-.3.2-.5.1-.3-.1-1.1-.4-2-1.2-.8-.7-1.3-1.5-1.4-1.8-.2-.3 0-.4.1-.6l.4-.5c.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5l-.8-1.9c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.1s.9 2.4 1 2.6c.1.2 1.8 2.8 4.3 3.9.6.3 1.1.4 1.5.6.6.2 1.2.2 1.6.1.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2 0-.1-.2-.2-.5-.3z"/>
       </svg>
@@ -42,6 +42,13 @@
   </div>
 </header>
 
+!-- Botão Flutuante do WhatsApp (Fixo na tela em mobile e desktop) -->
+<a class="whatsapp-flutuante" href="https://wa.me/5511910000055" target="_blank" rel="noopener noreferrer" aria-label="Falar no WhatsApp">
+  <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+    <path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.6-6.1c-.3-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1-.2.3-.6.8-.8 1-.1.2-.3.2-.5.1-.3-.1-1.1-.4-2-1.2-.8-.7-1.3-1.5-1.4-1.8-.2-.3 0-.4.1-.6l.4-.5c.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5l-.8-1.9c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.1s.9 2.4 1 2.6c.1.2 1.8 2.8 4.3 3.9.6.3 1.1.4 1.5.6.6.2 1.2.2 1.6.1.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2 0-.1-.2-.2-.5-.3z"/>
+  </svg>
+</a>
+  
 <main id="conteudo">
   <section class="hero" id="inicio">
     <div class="hero-video-wrap" aria-hidden="true">
@@ -227,9 +234,9 @@
             Cafés
           </h3>
           <ul>
-            <li><span class="item-nome">Coado da casa</span><span class="item-pontos" aria-hidden="true"></span><span class="item-preco">[PLACEHOLDER: R$]</span></li>
-            <li><span class="item-nome">Cappuccino</span><span class="item-pontos" aria-hidden="true"></span><span class="item-preco">[PLACEHOLDER: R$]</span></li>
-            <li><span class="item-nome">Latte</span><span class="item-pontos" aria-hidden="true"></span><span class="item-preco">[PLACEHOLDER: R$]</span></li>
+            <li><span class="item-nome">Coado da casa</span><span class="item-pontos" aria-hidden="true"></span><span class="item-preco">[R$]</span></li>
+            <li><span class="item-nome">Cappuccino</span><span class="item-pontos" aria-hidden="true"></span><span class="item-preco">[R$]</span></li>
+            <li><span class="item-nome">Latte</span><span class="item-pontos" aria-hidden="true"></span><span class="item-preco">[R$]</span></li>
           </ul>
         </div>
         <div class="categoria anima" style="--i:1">
@@ -240,9 +247,9 @@
             Brunch
           </h3>
           <ul>
-            <li><span class="item-nome">Ovos mexidos com torrada</span><span class="item-pontos" aria-hidden="true"></span><span class="item-preco">[PLACEHOLDER: R$]</span></li>
-            <li><span class="item-nome">Tapioca de queijo</span><span class="item-pontos" aria-hidden="true"></span><span class="item-preco">[PLACEHOLDER: R$]</span></li>
-            <li><span class="item-nome">Bowl de iogurte com granola</span><span class="item-pontos" aria-hidden="true"></span><span class="item-preco">[PLACEHOLDER: R$]</span></li>
+            <li><span class="item-nome">Salgado assado</span><span class="item-pontos" aria-hidden="true"></span><span class="item-preco">[R$]</span></li>
+            <li><span class="item-nome">Pão de queijo</span><span class="item-pontos" aria-hidden="true"></span><span class="item-preco">[R$]</span></li>
+            <li><span class="item-nome">Waffle</span><span class="item-pontos" aria-hidden="true"></span><span class="item-preco">[R$]</span></li>
           </ul>
         </div>
         <div class="categoria anima" style="--i:2">
@@ -254,10 +261,9 @@
             Doces
           </h3>
           <ul>
-            <li><span class="item-nome">Bolo de cenoura com brigadeiro</span><span class="item-pontos" aria-hidden="true"></span><span class="item-preco">[PLACEHOLDER: R$]</span></li>
-            <li><span class="item-nome">Pão de mel</span><span class="item-pontos" aria-hidden="true"></span><span class="item-preco">[PLACEHOLDER: R$]</span></li>
-            <li><span class="item-nome">Torta de banana</span><span class="item-pontos" aria-hidden="true"></span><span class="item-preco">[PLACEHOLDER: R$]</span></li>
-          </ul>
+            <li><span class="item-nome">Bolo do dia</span><span class="item-pontos" aria-hidden="true"></span><span class="item-preco">[R$]</span></li>
+            <li><span class="item-nome">Brownie</span><span class="item-pontos" aria-hidden="true"></span><span class="item-preco">[R$]</span></li>
+            <li><span class="item-nome">Torta de banana</span><span class="item-pontos" aria-hidden="true"></span><span class="item-preco">[R$]</span></li>
         </div>
       </div>
     </div>
@@ -392,7 +398,7 @@
             Como chegar
           </h3>
           <div class="local-foto">
-            <img src="./images/fachada-bisa-cafe.jpeg" alt="Fachada do Bisa Café, na esquina, com a placa redonda da marca" loading="lazy">
+            <img src=".fachada-bisa-cafe.jpeg" alt="Fachada do Bisa Café, na esquina, com a placa redonda da marca" loading="lazy">
           </div>
           <p>Rua Porto Alegre, 80 – Vila Assunção, Santo André – SP</p>
           <a class="link-maps" href="https://www.google.com/maps/search/?api=1&amp;query=Rua%20Porto%20Alegre%2C%2080%2C%20Vila%20Assun%C3%A7%C3%A3o%2C%20Santo%20Andr%C3%A9%20-%20SP">Abrir no Google Maps</a>
